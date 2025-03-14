@@ -1,3 +1,5 @@
 #!/bin/bash
 cd "$(dirname "$0")"
-/usr/games/steamcmd +runscript "$(pwd)/steamShell.txt"
+INSTALL_DIR=$(pwd)
+
+/usr/games/steamcmd +force_install_dir "$INSTALL_DIR" +login anonymous +app_update 1874900 validate +quit
