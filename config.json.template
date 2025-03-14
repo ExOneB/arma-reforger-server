@@ -16,7 +16,7 @@
 		"whitelist": []
 	},
 	"game": {
-		"name": "Arland Conflict Server",
+		"name": "[RU/EU] ARLAND CONFLICT | HARDCORE MILSIM",
 		"password": "",
 		"passwordAdmin": "__ARMA_ADMIN_PASSWORD__",
 		"scenarioId": "{ECC61978EDCC2B5A}Missions/23_Campaign.conf",
@@ -45,5 +45,15 @@
 			}
 		},
 		"mods": []
-	}
+	},
+    "operating": {
+ 		"lobbyPlayerSynchronise": true,
+     	"joinQueue" : {
+     		"maxSize" : 12
+     	},
+     	"disableNavmeshStreaming": [
+     		"Soldiers",
+     		"BTRlike"
+     	]
+    }
 }
