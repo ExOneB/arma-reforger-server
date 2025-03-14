@@ -1,5 +1,4 @@
 {
-  "gameHostBindAddress": "__ARMA_BIND_ADDRESS__",
   "gameHostBindPort": "__ARMA_BIND_PORT__",
   "gameHostRegisterPort": "__ARMA_REGISTER_PORT__",
   "maxPlayers": 48,
