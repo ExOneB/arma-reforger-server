@@ -14,7 +14,7 @@
     "supportedPlatforms": [
       "PLATFORM_PC",
       "PLATFORM_XBL",
-      "PLATFORM_PS"
+      "PLATFORM_PSN"
     ],
     "gameHeader": {
       "m_iPlayerCount": 48,
