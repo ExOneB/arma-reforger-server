@@ -19,7 +19,7 @@
 		"name": "[RU/EU] ARLAND CONFLICT | HARDCORE MILSIM",
 		"password": "",
 		"passwordAdmin": "__ARMA_ADMIN_PASSWORD__",
-		"scenarioId": "{ECC61978EDCC2B5A}Missions/23_Campaign.conf",
+		"scenarioId": "{C41618FD18E9D714}Missions/23_Campaign_Arland.conf",
 		"maxPlayers": 48,
 		"visible": true,
 		"crossPlatform": true,
