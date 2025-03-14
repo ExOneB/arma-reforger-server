@@ -8,7 +8,7 @@
     "passwordAdmin": "__ARMA_ADMIN_PASSWORD__",
     "admins": [],
     "maxPlayers": 48,
-    "scenarioId": "{ECC61978EDCC2B5A}Missions/23_Campaign.conf"
+    "scenarioId": "{ECC61978EDCC2B5A}Missions/23_Campaign.conf",
     "visible": true,
     "crossPlatform": true,
     "supportedPlatforms": [
