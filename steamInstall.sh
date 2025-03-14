@@ -1,3 +1,3 @@
 #!/bin/bash
 cd "$(dirname "$0")"
-/usr/bin/steamcmd +runscript ./steamShell.txt
+/usr/games/steamcmd +runscript ./steamShell.txt
