@@ -1,6 +1,24 @@
 {
-  "maxPlayers": 48,
-  "serverName": "Arland Conflict",
-  "scenarioId": "84C9A6B87167A21F",
-  "adminPassword": "__ARMA_ADMIN_PASSWORD__"
+	"bindAddress": "__ARMA_BIND_ADDRESS__",
+	"bindPort": __ARMA_BIND_PORT__,
+	"publicAddress": "__ARMA_PUBLIC_ADDRESS__",
+	"game": {
+		"name": "Arland Conflict Server",
+		"password": "",
+		"passwordAdmin": "__ARMA_ADMIN_PASSWORD__",
+		"admins": [],
+		"maxPlayers": 48,
+		"scenarioId": "84C9A6B87167A21F",
+		"visible": true,
+		"crossPlatform": true,
+		"supportedPlatforms": [
+			"PLATFORM_PC",
+			"PLATFORM_XBL",
+			"PLATFORM_PS"
+		],
+		"gameProperties": {
+			"serverMaxViewDistance": 2500,
+			"serverMinGrassDistance": 50
+		},
+		"mods": []
 }
