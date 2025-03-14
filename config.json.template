@@ -1,26 +1,49 @@
 {
-  "bindAddress": "__ARMA_BIND_ADDRESS__",
-  "bindPort": "__ARMA_BIND_PORT__",
-  "publicAddress": "__ARMA_PUBLIC_ADDRESS__",
-  "game": {
-    "name": "Arland Conflict Server",
-    "password": "",
-    "passwordAdmin": "__ARMA_ADMIN_PASSWORD__",
-    "admins": [],
-    "maxPlayers": 48,
-    "scenarioId": "{ECC61978EDCC2B5A}Missions/23_Campaign.conf",
-    "visible": true,
-    "crossPlatform": true,
-    "supportedPlatforms": [
-      "PLATFORM_PC",
-      "PLATFORM_XBL",
-      "PLATFORM_PSN"
-    ],
-    "gameHeader": {
-      "m_iPlayerCount": 48,
-      "m_eEditableGameFlags": 6,
-      "m_eEditableGameFlags": 6
-    },
-    "mods": []
-  }
+	"bindAddress": "__ARMA_BIND_ADDRESS__",
+	"bindPort": "__ARMA_BIND_PORT__",
+	"publicAddress": "__ARMA_PUBLIC_ADDRESS__",
+	"publicPort": "__ARMA_BIND_PORT__",
+	"a2s": {
+		"address": "__ARMA_PUBLIC_ADDRESS__",
+		"port": 17777
+	},
+	"rcon": {
+		"address": "__ARMA_PUBLIC_ADDRESS__",
+		"port": 19999,
+		"password": "changeme_withoutspaces",
+		"permission": "monitor",
+		"blacklist": [],
+		"whitelist": []
+	},
+	"game": {
+		"name": "Arland Conflict Server",
+		"password": "",
+		"passwordAdmin": "__ARMA_ADMIN_PASSWORD__",
+		"scenarioId": "{ECC61978EDCC2B5A}Missions/23_Campaign.conf",
+		"maxPlayers": 48,
+		"visible": true,
+		"crossPlatform": true,
+		"supportedPlatforms": [
+			"PLATFORM_PC",
+			"PLATFORM_XBL",
+			"PLATFORM_PSN"
+		],
+		"gameProperties": {
+			"serverMaxViewDistance": 2500,
+			"serverMinGrassDistance": 50,
+			"networkViewDistance": 1000,
+			"disableThirdPerson": true,
+			"fastValidation": true,
+			"battlEye": true,
+			"VONDisableUI": true,
+			"VONDisableDirectSpeechUI": true,
+			"missionHeader": {
+				"m_iPlayerCount": 40,
+				"m_eEditableGameFlags": 6,
+				"m_eDefaultGameFlags": 6,
+				"other": "values"
+			}
+		},
+		"mods": []
+	},
 }
