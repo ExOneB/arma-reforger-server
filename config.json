@@ -1,0 +1,9 @@
+{
+  "gameHostBindAddress": "__ARMA_BIND_ADDRESS__",
+  "gameHostBindPort": "__ARMA_BIND_PORT__",
+  "gameHostRegisterPort": "__ARMA_REGISTER_PORT__",
+  "maxPlayers": 48,
+  "serverName": "Arland Conflict",
+  "scenarioId": "84C9A6B87167A21F",
+  "adminPassword": "__ARMA_ADMIN_PASSWORD__"
+}
